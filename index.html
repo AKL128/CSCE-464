@@ -15,42 +15,36 @@
 
 <body>
   <header>
-  <div class="brand">My Forum</div>
+
   <div class="navbar">
+    <div id="image">
+      <a href="index.html"><img src="squad.jpg" alt="squad" width="256" height="256" src="index.html"></a>
+    </div>
            <nav class="navigation hide" id="navigation">
                <span class="close-icon" id="close-icon" onclick="showIconBar()"><i class="fa fa-close"></i></span>
                <ul class="nav-list">
-                 <li class="nav-item"><a href="posts.html">Posts</a></li>
+                 <li class="nav-item"><a href="posts.html">New</a></li>
                  <li class="nav-item"><a href="index.html">Home</a></li>
                </ul>
            </nav>
            <a href="#" class="bar-icon" id="iconBar" onclick="hideIconBar()"><i class="fa fa-bars"></i></a>
-       </div>
+           <div class="search-box">
+                     <div>
+                         <select name="" id="">
+                             <option value="All">Everything</option>
+                             <option value="Titles">Titles</option>
+                             <option value="Descriptions">Descriptions</option>
+                         </select>
+                         <input type="text" name="q" placeholder="search ...">
+                         <button><i class="fa fa-search"></i></button>
+                     </div>
+                 </div>
+  </div>
+
+
 </header>
 
-
   <div class="container">
-    <div class="subforum">
-      <div class="subforum-title">
-        <h1>Subforums</h1>
-      </div>
-      <div class="subforum-row">
-        <div class="subforum-stats subforum-column center">
-          <span># of Posts</span>
-        </div>
-
-        <div class="subforum-Title subforum-column">
-          <h1><a href="">Subforum Title:</a></h1>
-          <p>Subforum Content: blah blah blah<p>
-        </div>
-        <div class="subforum-info subforum-column">
-          <b><a href="">Last post</a></b> by <a href="">User</a>
-                    <br>on <small>6 March 2022</small>
-        </div>
-      </div>
-    </div>
-
-
 
 
     <div class="subforum">
@@ -63,7 +57,7 @@
         </div>
 
         <div class="subforum-Title subforum-column">
-          <h1><a href="">Subforum Title:</a></h1>
+          <h1><a href="post1.html">Subforum Title:</a></h1>
           <p>Subforum Content: blah blah blah<p>
         </div>
         <div class="subforum-info subforum-column">
