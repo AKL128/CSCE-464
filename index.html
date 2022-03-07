@@ -5,28 +5,112 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AKL128 Forum</title>
   <link href="css/style.css" type="text/css" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
+  <header>
+  <div class="brand">My Forum</div>
+  <div class="navbar">
+           <nav class="navigation hide" id="navigation">
+               <span class="close-icon" id="close-icon" onclick="showIconBar()"><i class="fa fa-close"></i></span>
+               <ul class="nav-list">
+                 <li class="nav-item"><a href="posts.html">Posts</a></li>
+                 <li class="nav-item"><a href="index.html">Home</a></li>
+               </ul>
+           </nav>
+           <a href="#" class="bar-icon" id="iconBar" onclick="hideIconBar()"><i class="fa fa-bars"></i></a>
+       </div>
+</header>
+
+
   <div class="container">
     <div class="subforum">
       <div class="subforum-title">
-        <h1>Posts</h1>
+        <h1>Subforums</h1>
       </div>
       <div class="subforum-row">
-        <div class="subforum-stats">
+        <div class="subforum-stats subforum-column center">
           <span># of Posts</span>
         </div>
-        <div class="subforum-Title">
-          <h1>Subforum Title:</h1>
+
+        <div class="subforum-Title subforum-column">
+          <h1><a href="">Subforum Title:</a></h1>
           <p>Subforum Content: blah blah blah<p>
         </div>
-        <div class="subforum-info">
+        <div class="subforum-info subforum-column">
           <b><a href="">Last post</a></b> by <a href="">User</a>
                     <br>on <small>6 March 2022</small>
         </div>
+      </div>
     </div>
-  </div>
+
+
+
+
+    <div class="subforum">
+      <div class="subforum-title">
+        <h1>Subforums</h1>
+      </div>
+      <div class="subforum-row">
+        <div class="subforum-stats subforum-column center">
+          <span># of Posts</span>
+        </div>
+
+        <div class="subforum-Title subforum-column">
+          <h1><a href="">Subforum Title:</a></h1>
+          <p>Subforum Content: blah blah blah<p>
+        </div>
+        <div class="subforum-info subforum-column">
+          <b><a href="">Last post</a></b> by <a href="">User</a>
+                    <br>on <small>6 March 2022</small>
+        </div>
+      </div>
+    </div>
+
+
+
+
+      <div class="subforum-row">
+        <div class="subforum-stats subforum-column center">
+          <span># of Posts</span>
+        </div>
+
+        <div class="subforum-Title subforum-column">
+          <h1><a href="">Subforum Title:</a></h1>
+          <p>Subforum Content: blah blah blah<p>
+        </div>
+        <div class="subforum-info subforum-column">
+          <b><a href="">Last post</a></b> by <a href="">User</a>
+                    <br>on <small>6 March 2022</small>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="subforum-row">
+        <div class="subforum-stats subforum-column center">
+          <span># of Posts</span>
+        </div>
+
+        <div class="subforum-description subforum-column">
+          <h1><a href="">Subforum Title:</a></h1>
+          <p>Subforum Content: blah blah blah<p>
+        </div>
+        <div class="subforum-info subforum-column">
+          <b><a href="">Last post</a></b> by <a href="">User</a>
+                    <br>on <small>6 March 2022</small>
+        </div>
+      </div>
+    </div>
+
 
     <script src="js/function.js"></script>
 </body>
